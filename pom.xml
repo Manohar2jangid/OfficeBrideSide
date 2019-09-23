@@ -305,7 +305,8 @@
                 <version>2.20</version>
                 <configuration>
                  <testFailureIgnore>true</testFailureIgnore>
-                    <!-- Disable unit tests-->
+                  
+			  <!-- Disable unit tests-->
                     <!-- <skip>true</skip>
                     <systemPropertyVariables>
                         <env>${environmentURL}</env>
@@ -313,6 +314,8 @@
                         <password>${password}</password>
                         <browserType>${browser}</browserType>
                     </systemPropertyVariables> -->
+			
+			
                 </configuration>
             </plugin>
             <plugin>
